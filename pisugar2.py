@@ -45,7 +45,7 @@ class PiSugar(plugins.Plugin):
                 color=BLACK,
                 label="BAT",
                 value="0%",
-                position=(ui.width() / 2 + 15, 0),
+                position=(ui.width() / 2 - 12, 0),
                 label_font=fonts.Bold,
                 text_font=fonts.Medium,
             ),
